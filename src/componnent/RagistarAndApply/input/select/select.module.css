@@ -1,0 +1,43 @@
+.mainDiv {
+    width: 88%;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 17px;
+    margin-left: 25px !important;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 3px;
+}
+
+
+.selectWrp {
+    width: 98%;
+    margin: auto;
+    margin-top: 7px;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(170, 170, 170);
+    background: transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.require {
+    color: red;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+.seleItem {
+    font-size: 17px;
+}
+
+.selectWrp:focus {
+    background: rgb(247, 247, 247);
+    border: 2px solid rgb(151, 151, 151);
+    outline: none;
+}

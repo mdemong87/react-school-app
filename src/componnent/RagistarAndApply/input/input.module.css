@@ -1,0 +1,31 @@
+.form {
+    width: 98%;
+    margin: auto;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form>input {
+    background: transparent;
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+    width: 90%;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.form>input:focus {
+    background: rgb(247, 247, 247);
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.form>label {
+    padding-left: 17px;
+}
+
+.require {
+    color: red;
+    padding-left: 7px;
+    font-size: 18px;
+}

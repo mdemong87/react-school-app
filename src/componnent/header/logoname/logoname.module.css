@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logonameWrp {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.logo>img {
+    width: 60px;
+    height: 60px;
+
+}
